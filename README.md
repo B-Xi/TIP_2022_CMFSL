@@ -2,7 +2,7 @@ Few-shot Learning with Class-Covariance Metric for Hyperspectral Image Classific
 ==
 [Bobo Xi](https://scholar.google.com/citations?user=O4O-s4AAAAAJ&hl=zh-CN), [Jiaojiao Li](https://scholar.google.com/citations?user=Ccu3-acAAAAJ&hl=zh-CN&oi=sra), [Yunsong Li](https://dblp.uni-trier.de/pid/87/5840.html),  [Rui song](https://scholar.google.com/citations?user=_SKooBYAAAAJ&hl=zh-CN), [Danfeng Hong](https://sites.google.com/view/danfeng-hong/home) and [Jocelyn Chanussot](https://jocelyn-chanussot.net/).
 ***
-Code for paper: Few-shot Learning with Class-Covariance Metric for Hyperspectral Image Classification. (The paper will be early accessed soon!)
+Code for the paper: Few-shot Learning with Class-Covariance Metric for Hyperspectral Image Classification. (The paper will be early accessed soon!)
 
 <div align=center><img src="/Image/frameworks.jpg" width="80%" height="80%"></div>
 Fig. 1: The architecture of the proposed CMFSL for HSIC. Based on the class-covariance metric, the classification process is completed by the episode-based collaboratively meta-training of the source and target data sets, and the episode-based meta-test of the target data set. Notably, the embedding feature extractor comprises a new SPRM and a novel LXConvNet.
@@ -13,7 +13,7 @@ Training and Test Process
 2) Run "trainMetaDataProcess.py" to generate the meta-training data 
 3) Run the 'CMFSL_UP_main.py' to reproduce the CMFSL results on [Pavia University](http://www.ehu.eus/ccwintco/index.php?title=Hyperspectral_Remote_Sensing_Scenes#Pavia_University_scene) data set.
 
-We have successfully tested it on Ubuntu 16.04 with PyTorch 1.1.0. Below is the classification map with five shots training samples from each class. 
+We have successfully tested it on Ubuntu 16.04 with PyTorch 1.1.0. Below is the classification map with five shots of training samples from each class. 
 
 <div align=center><p float="center">
 <img src="/Image/false_color.jpg" height="300" width="200"/>
