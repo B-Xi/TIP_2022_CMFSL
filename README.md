@@ -2,7 +2,7 @@ Few-shot Learning with Class-Covariance Metric for Hyperspectral Image Classific
 ==
 [Bobo Xi](https://scholar.google.com/citations?user=O4O-s4AAAAAJ&hl=zh-CN), [Jiaojiao Li](https://scholar.google.com/citations?user=Ccu3-acAAAAJ&hl=zh-CN&oi=sra), [Yunsong Li](https://dblp.uni-trier.de/pid/87/5840.html),  [Rui song](https://scholar.google.com/citations?user=_SKooBYAAAAJ&hl=zh-CN), [Danfeng Hong](https://sites.google.com/view/danfeng-hong/home) and [Jocelyn Chanussot](https://jocelyn-chanussot.net/).
 ***
-Code for paper: Few-shot Learning with Class-Covariance Metric for Hyperspectral Image Classification.(The paper will be early accessed soon!)
+Code for paper: Few-shot Learning with Class-Covariance Metric for Hyperspectral Image Classification. (The paper will be early accessed soon!)
 
 <div align=center><img src="/Image/frameworks.jpg" width="80%" height="80%"></div>
 Fig. 1: The architecture of the proposed CMFSL for HSIC. Based on the class-covariance metric, the classification process is completed by the episode-based collaboratively meta-training of the source and target data sets, and the episode-based meta-test of the target data set. Notably, the embedding feature extractor comprises a new SPRM and a novel LXConvNet.
