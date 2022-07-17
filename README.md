@@ -14,9 +14,9 @@ Training and Test Process
 3) Run the 'CMFSL_UP_main.py' to reproduce the CMFSL results on [Pavia University](http://www.ehu.eus/ccwintco/index.php?title=Hyperspectral_Remote_Sensing_Scenes#Pavia_University_scene) data set. We have successfully test it on Ubuntu 16.04 with PyTorch 1.1.0. 
 
 <div align=center><p float="center">
-<img src="/Image/false_color.jpg" height="150" width="100"/>
-<img src="/Image/gt.jpg" height="150"width="140"/>
-<img src="/Image/classification_map.jpg" height="150"width="100"/>
+<img src="/Image/false_color.jpg" height="300" width="200"/>
+<img src="/Image/gt.jpg" height="300"width="280"/>
+<img src="/Image/classification_map.jpg" height="300"width="200"/>
 </p></div>
 <div align=center>Fig. 2: The composite false-color image, groundtruth, and classification map of Pavia University dataset.</div>  
 
