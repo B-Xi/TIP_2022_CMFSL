@@ -4,3 +4,71 @@ Few-shot Learning with Class-Covariance Metric for Hyperspectral Image Classific
 ***
 Code for paper: Few-shot Learning with Class-Covariance Metric for Hyperspectral Image Classification.(The paper will be early accessed soon!)
 
+<div align=center><img src="/Image/frameworks.jpg" width="80%" height="80%"></div>
+Fig. 1: The architecture of the proposed CMFSL for HSIC. Based on the class-covariance metric, the classification process is completed by the episode-based collaboratively meta-training of the source and target data sets, and the episode-based meta-test of the target data set. Notably, the embedding feature extractor comprises a new SPRM and a novel LXConvNet.
+
+Training and Test Process
+--
+Please run the 'CMFSL_UP_main.py' to reproduce the CMFSL results on [Pavia University](http://www.ehu.eus/ccwintco/index.php?title=Hyperspectral_Remote_Sensing_Scenes#Pavia_University_scene) data set. We have successfully test it on Ubuntu 16.04 with PyTorch 1.1.0. 
+
+<div align=center><p float="center">
+<img src="/Image/false_color.jpg" height="150"/>
+<img src="/Image/gt.jpg" height="150"/>
+<img src="/Image/classification_map.jpg" height="150"/>
+</p></div>
+<div align=center>Fig. 2: The composite false-color image, groundtruth, and classification map of Pavia University dataset.</div>  
+
+References
+--
+If you find this code helpful, please kindly cite:
+
+[1] B. Xi, J. Li, Y. Li, R. Song, D. Hong, J. Chanussot, “Few-shot Learning with Class-Covariance Metric for Hyperspectral Image Classification, pp. 1-14, 2022. 
+
+
+Citation Details
+--
+BibTeX entry:
+```
+@ARTICLE{Xi_2022TIP_CMFSL,
+  author={Xi, Bobo and Li, Jiaojiao and Li, Yunsong and Song, Rui and Xiao, Yuchao and Du, Qian and Chanussot, Jocelyn},
+  journal={IEEE Transactions on Neural Networks and Learning Systems}, 
+  title={Few-shot Learning with Class-Covariance Metric for Hyperspectral Image Classification}, 
+  year={2022},
+  volume={},
+  number={},
+  pages={1-14},
+  }
+```
+```
+@ARTICLE{Xi_2021JSTARS_SGML,
+  author={Li, Yunsong and Xi, Bobo and Li, Jiaojiao and Song, Rui and Xiao, Yuchao and Chanussot, Jocelyn},
+  journal={IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing}, 
+  title={SGML: A Symmetric Graph Metric Learning Framework for Efficient Hyperspectral Image Classification}, 
+  year={2022},
+  volume={15},
+  number={},
+  pages={609-622},
+  doi={10.1109/JSTARS.2021.3135548}}
+```
+```
+@INPROCEEDINGS{Xi_2021IGARSS_GPN,
+  author={Xi, Bobo and Li, Jiaojiao and Li, Yunsong and Du, Qian},
+  booktitle={2021 IEEE International Geoscience and Remote Sensing Symposium IGARSS}, 
+  title={Semi-Supervised Graph Prototypical Networks for Hyperspectral Image Classification}, 
+  year={2021},
+  volume={},
+  number={},
+  pages={2851-2854},
+  doi={10.1109/IGARSS47720.2021.9553372}}
+```
+ 
+Licensing
+--
+Copyright (C) 2022 Bobo Xi
+
+This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, version 3 of the License.
+
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License along with this program.
+
