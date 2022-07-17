@@ -9,12 +9,14 @@ Fig. 1: The architecture of the proposed CMFSL for HSIC. Based on the class-cova
 
 Training and Test Process
 --
-Please run the 'CMFSL_UP_main.py' to reproduce the CMFSL results on [Pavia University](http://www.ehu.eus/ccwintco/index.php?title=Hyperspectral_Remote_Sensing_Scenes#Pavia_University_scene) data set. We have successfully test it on Ubuntu 16.04 with PyTorch 1.1.0. 
+1) Please prepare the training and test data as operated in the paper. And the websites to access the datasets are also provided. The used OCBS band selection method is referred to [https://github.com/tanmlh] (https://github.com/tanmlh).
+2) Run "trainMetaDataProcess.py" to generate the meta-training data 
+3) Run the 'CMFSL_UP_main.py' to reproduce the CMFSL results on [Pavia University](http://www.ehu.eus/ccwintco/index.php?title=Hyperspectral_Remote_Sensing_Scenes#Pavia_University_scene) data set. We have successfully test it on Ubuntu 16.04 with PyTorch 1.1.0. 
 
 <div align=center><p float="center">
-<img src="/Image/false_color.jpg" height="150" width="70"/>
-<img src="/Image/gt.jpg" height="150"/>
-<img src="/Image/classification_map.jpg" height="150"/>
+<img src="/Image/false_color.jpg" height="150" width="100"/>
+<img src="/Image/gt.jpg" height="150"width="120"/>
+<img src="/Image/classification_map.jpg" height="150"width="100"/>
 </p></div>
 <div align=center>Fig. 2: The composite false-color image, groundtruth, and classification map of Pavia University dataset.</div>  
 
@@ -22,7 +24,7 @@ References
 --
 If you find this code helpful, please kindly cite:
 
-[1] B. Xi, J. Li, Y. Li, R. Song, D. Hong, J. Chanussot, “Few-shot Learning with Class-Covariance Metric for Hyperspectral Image Classification, pp. 1-14, 2022. 
+[1] B. Xi, J. Li, Y. Li, R. Song, D. Hong, J. Chanussot, “Few-shot Learning with Class-Covariance Metric for Hyperspectral Image Classification, IEEE Transactions on Image Processing, pp. 1-14, 2022. 
 
 
 Citation Details
