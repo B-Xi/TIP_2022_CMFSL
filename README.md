@@ -11,7 +11,9 @@ Training and Test Process
 --
 1) Please prepare the training and test data as operated in the paper. And the websites to access the datasets are also provided. The used OCBS band selection method is referred to [https://github.com/tanmlh] (https://github.com/tanmlh).
 2) Run "trainMetaDataProcess.py" to generate the meta-training data 
-3) Run the 'CMFSL_UP_main.py' to reproduce the CMFSL results on [Pavia University](http://www.ehu.eus/ccwintco/index.php?title=Hyperspectral_Remote_Sensing_Scenes#Pavia_University_scene) data set. We have successfully test it on Ubuntu 16.04 with PyTorch 1.1.0. 
+3) Run the 'CMFSL_UP_main.py' to reproduce the CMFSL results on [Pavia University](http://www.ehu.eus/ccwintco/index.php?title=Hyperspectral_Remote_Sensing_Scenes#Pavia_University_scene) data set.
+
+We have successfully test it on Ubuntu 16.04 with PyTorch 1.1.0. Below is the classification map with five shots training samples from each class. 
 
 <div align=center><p float="center">
 <img src="/Image/false_color.jpg" height="300" width="200"/>
@@ -32,7 +34,7 @@ Citation Details
 BibTeX entry:
 ```
 @ARTICLE{Xi_2022TIP_CMFSL,
-  author={Xi, Bobo and Li, Jiaojiao and Li, Yunsong and Song, Rui and Xiao, Yuchao and Du, Qian and Chanussot, Jocelyn},
+  author={Xi, Bobo and Li, Jiaojiao and Li, Yunsong and Song, Rui and Hong, Danfeng and Chanussot, Jocelyn},
   journal={IEEE Transactions on Neural Networks and Learning Systems}, 
   title={Few-shot Learning with Class-Covariance Metric for Hyperspectral Image Classification}, 
   year={2022},
