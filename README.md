@@ -15,7 +15,7 @@ Training and Test Process
 
 <div align=center><p float="center">
 <img src="/Image/false_color.jpg" height="150" width="100"/>
-<img src="/Image/gt.jpg" height="150"width="120"/>
+<img src="/Image/gt.jpg" height="150"width="140"/>
 <img src="/Image/classification_map.jpg" height="150"width="100"/>
 </p></div>
 <div align=center>Fig. 2: The composite false-color image, groundtruth, and classification map of Pavia University dataset.</div>  
