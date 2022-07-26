@@ -9,7 +9,7 @@ Fig. 1: The architecture of the proposed CMFSL for HSIC. Based on the class-cova
 
 Training and Test Process
 --
-1) Please prepare the training and test data as operated in the paper. And the websites to access the datasets are also provided. The used OCBS band selection method is referred to [https://github.com/tanmlh] (https://github.com/tanmlh).
+1) Please prepare the training and test data as operated in the paper. And the websites to access the datasets are also provided. The used OCBS band selection method is referred to [https://github.com/tanmlh](https://github.com/tanmlh)
 2) Run "trainMetaDataProcess.py" to generate the meta-training data 
 3) Run the 'CMFSL_UP_main.py' to reproduce the CMFSL results on [Pavia University](http://www.ehu.eus/ccwintco/index.php?title=Hyperspectral_Remote_Sensing_Scenes#Pavia_University_scene) data set.
 
