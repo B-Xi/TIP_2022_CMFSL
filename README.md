@@ -35,7 +35,7 @@ BibTeX entry:
 ```
 @ARTICLE{Xi_2022TIP_CMFSL,
   author={Xi, Bobo and Li, Jiaojiao and Li, Yunsong and Song, Rui and Hong, Danfeng and Chanussot, Jocelyn},
-  journal={IEEE Transactions on Neural Networks and Learning Systems}, 
+  journal={IEEE Transactions on Image Processing}, 
   title={Few-shot Learning with Class-Covariance Metric for Hyperspectral Image Classification}, 
   year={2022},
   volume={},
