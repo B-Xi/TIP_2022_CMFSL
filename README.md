@@ -40,7 +40,7 @@ BibTeX entry:
   year={2022},
   volume={},
   number={},
-  pages={1-14},
+  pages={1-1},
   }
 ```
  
