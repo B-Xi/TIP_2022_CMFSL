@@ -26,8 +26,7 @@ References
 --
 If you find this code helpful, please kindly cite:
 
-[1] B. Xi, J. Li, Y. Li, R. Song, D. Hong, J. Chanussot, “Few-shot Learning with Class-Covariance Metric for Hyperspectral Image Classification, IEEE Transactions on Image Processing, 2022, doi: 10.1109/TIP.2022.3192712. 
-
+[1] B. Xi, J. Li, Y. Li, R. Song, D. Hong and J. Chanussot, "Few-Shot Learning With Class-Covariance Metric for Hyperspectral Image Classification," in IEEE Transactions on Image Processing, vol. 31, pp. 5079-5092, 2022, doi: 10.1109/TIP.2022.3192712.
 
 Citation Details
 --
@@ -36,11 +35,11 @@ BibTeX entry:
 @ARTICLE{Xi_2022TIP_CMFSL,
   author={Xi, Bobo and Li, Jiaojiao and Li, Yunsong and Song, Rui and Hong, Danfeng and Chanussot, Jocelyn},
   journal={IEEE Transactions on Image Processing}, 
-  title={Few-shot Learning with Class-Covariance Metric for Hyperspectral Image Classification}, 
+  title={Few-Shot Learning With Class-Covariance Metric for Hyperspectral Image Classification}, 
   year={2022},
-  volume={},
+  volume={31},
   number={},
-  pages={1-1},
+  pages={5079-5092},
   doi={10.1109/TIP.2022.3192712}}
 ```
  
